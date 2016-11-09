@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">朋也社区</string>
+    <string name="app_name">CSC社区</string>
 
-    <string name="logo_url">bbs.tomoya.cn</string>
-    <string name="logo_slogan">更好用的Java社区</string>
+    <string name="logo_url">csc.flyme.cn</string>
+    <string name="logo_slogan">CoreSysCommunity</string>
 
     <string name="tab_top">置顶</string>
     <string name="tab_all">全部</string>
     <string name="tab_good">精华</string>
     <string name="tab_share">分享</string>
     <string name="tab_ask">问答</string>
-    <string name="tab_job">招聘</string>
-    <string name="tab_pybbs">朋也社区</string>
     <string name="tab_news">资讯</string>
 
     <string name="notification">消息</string>

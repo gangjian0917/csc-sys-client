@@ -14,7 +14,6 @@ public enum TabType {
 
     ask(R.string.tab_ask),
 
-    pybbs(R.string.tab_pybbs),
 
     news(R.string.tab_news);
 

@@ -118,12 +118,6 @@
             android:drawableLeft="@drawable/main_nav_ic_ask"
             android:text="@string/tab_ask" />
 
-        <CheckedTextView style="@style/AppWidget.NavigationItem"
-            android:id="@+id/btn_nav_pybbs"
-            android:drawableStart="@drawable/main_nav_ic_job"
-            android:drawableLeft="@drawable/main_nav_ic_job"
-            android:text="@string/tab_pybbs" />
-
         <View style="@style/AppWidget.NavigationItemDeepLineGap" />
 
         <FrameLayout

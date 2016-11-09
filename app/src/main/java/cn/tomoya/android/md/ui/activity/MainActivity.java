@@ -83,8 +83,7 @@ public class MainActivity extends FullLayoutActivity implements IMainView, IBack
             cn.tomoya.android.md.R.id.btn_nav_all,
             cn.tomoya.android.md.R.id.btn_nav_good,
             cn.tomoya.android.md.R.id.btn_nav_share,
-            cn.tomoya.android.md.R.id.btn_nav_ask,
-            cn.tomoya.android.md.R.id.btn_nav_pybbs
+            cn.tomoya.android.md.R.id.btn_nav_ask
     })
     protected List<CheckedTextView> navMainItemList;
 
@@ -186,9 +185,6 @@ public class MainActivity extends FullLayoutActivity implements IMainView, IBack
                         case cn.tomoya.android.md.R.id.btn_nav_ask:
                             tab = TabType.ask;
                             break;
-                        case cn.tomoya.android.md.R.id.btn_nav_pybbs:
-                            tab = TabType.pybbs;
-                            break;
                         default:
                             throw new AssertionError("Unknow tab.");
                     }
@@ -217,8 +213,7 @@ public class MainActivity extends FullLayoutActivity implements IMainView, IBack
             cn.tomoya.android.md.R.id.btn_nav_all,
             cn.tomoya.android.md.R.id.btn_nav_good,
             cn.tomoya.android.md.R.id.btn_nav_share,
-            cn.tomoya.android.md.R.id.btn_nav_ask,
-            cn.tomoya.android.md.R.id.btn_nav_pybbs
+            cn.tomoya.android.md.R.id.btn_nav_ask
     })
     public void onNavigationMainItemClick(CheckedTextView itemView) {
         for (CheckedTextView navItem : navMainItemList) {

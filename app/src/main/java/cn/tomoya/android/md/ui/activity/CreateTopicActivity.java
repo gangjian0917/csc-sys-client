@@ -110,8 +110,6 @@ public class CreateTopicActivity extends StatusBarActivity implements Toolbar.On
                 return TabType.ask;
             case 2:
                 return TabType.news;
-            case 3:
-                return TabType.pybbs;
             default:
                 return TabType.share;
         }
